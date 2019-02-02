@@ -14,16 +14,7 @@ include('Include/slider.php');
        
         <hr></hr>
             
-        <!-- Contact -->
-        <div id="contact">
-            <!-- Google Map -->
-            <div class="gmap">
-                <div id="map" class="map height-400"></div>
-                
-            </div>
-            <!-- End Google Map -->
-        </div>
-        <!-- End Contact -->
+        
         <!--form-->
          <div class="content-md container">
                 <div class="row">
@@ -51,12 +42,7 @@ include('Include/slider.php');
                         </div>
                         <div class="col-md-6">
                             <div class="containerr">
-                                <form action="insert_msg.php" method="Post">
-                                        <input type="text" id="name" name="fname" placeholder="Name" required=""  title="Letters Only">
-                                        <input type="email" id="email" name="email" placeholder="Email ID" required="" style="height: 45px;margin-bottom: 9px;width: 100%;padding-left: 18px;">
-                                        <textarea id="subject" name="fmsg" placeholder="Message" style="height:200px; width: 100%;padding: 14px 20px;" required=""></textarea>
-                                        <input type="submit" value="Submit" name="send_msg">
-                                </form>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14132.457364535405!2d85.313969!3d27.6828607!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe995809919dc875c!2sStreet+Child+Nepal!5e0!3m2!1sen!2snp!4v1549074092881" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                             </div>
                          </div>
                  </div>

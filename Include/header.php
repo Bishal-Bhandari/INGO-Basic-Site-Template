@@ -5,7 +5,7 @@
         <meta charset="utf-8"/>
         <title><?php 
 if($phptitle==null){
-echo "INGO"; 
+echo "Shaikshik Chetana Nepal"; 
 }
 else{
 echo "$phptitle"; 
@@ -31,7 +31,7 @@ echo "$phptitle";
         <link href="./css/layout.min.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- Favicon -->
-        <link rel="shortcut icon" href="favicon.ico"/>
+        <link rel="shortcut icon" href="img/favicon.ico"/>
         <!--cotact-->
         <link rel="stylesheet" type="text/css" href="./css/form.css">
         <link rel="stylesheet" type="text/css" href="./css/image_zoom.css">
@@ -74,6 +74,8 @@ echo "$phptitle";
   background: #bb0000;
   color: white;
 }
+ul.article_ul li{color: #ea8804;}
+ul.brick_li li{color: #ea8804;font-size: 25px;}
     </style>
     </head>
     <!-- END HEAD -->

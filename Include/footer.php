@@ -7,10 +7,10 @@
                         <div class="col-sm-2 sm-margin-b-30">
                             <!-- List -->
                             <ul class="list-unstyled footer-list">
-                                <li class="footer-list-item"><a href="#">Home</a></li>
-                                <li class="footer-list-item"><a href="#">About</a></li>
-                                <li class="footer-list-item"><a href="#">Work</a></li>
-                                <li class="footer-list-item"><a href="#">Contact</a></li>
+                                <li class="footer-list-item"><a href="index.php">Home</a></li>
+                                <li class="footer-list-item"><a href="who_we_are.php">About</a></li>
+                                <li class="footer-list-item"><a href="what_we_do.php">Work</a></li>
+                                <li class="footer-list-item"><a href="contact.php">Contact</a></li>
                             </ul>
                             <!-- End List -->
                         </div>
@@ -26,10 +26,66 @@
                             <!-- List -->
                             <ul class="list-unstyled footer-list">
                                 <li class="footer-list-item"><a href="#">Subscribe to Our Newsletter</a></li>
-                                <li class="footer-list-item"><a href="#">Donate</a></li>
-                                <li class="footer-list-item"><a href="#">Articles</a></li>
+                                <li class="footer-list-item"><a href="donate.php">Donate</a></li>
+                                <li class="footer-list-item"><a href="what_we_do.php">Articles</a></li>
                             </ul>
                             <!-- End List -->
+                        </div>
+                        <div class="col-md-3">
+<h2>Blogs</h2>
+                            <?php
+                            $position=100;
+                                     include('admin/dbcon.php');
+
+
+                                $query = "SELECT *FROM blog_post ORDER BY blog_id DESC";
+                                $result = mysqli_query($con, $query);
+                                $row_cnt = mysqli_num_rows($result);
+                                for ($i=0; $i <2 ; $i++) { 
+                                $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
+                                 
+                                $id=$row['blog_id'];
+                                $title=$row['blog_title'];
+                                $writer=$row['blog_writer'];
+                                $short_post=$row['blog_short_des'];
+
+                                $short = substr($short_post,$position,1);
+                                if($short !=" "){
+                                while($short !=" "){
+                                $j=1;
+                                $position=$position+$j;
+
+                               
+                                $short = substr($short_post,$position,1); 
+                                }
+
+                                }
+
+                                $short = substr($short_post,0,$position); 
+
+                    echo"<div class='col-sm-4 sm-margin-b-50' style='margin-top: 10px;width:100%'>";
+                        echo"<h4><a href='full_blog.php?blog_link_ref=$id'>$title</a> <br><span class='text-uppercase margin-l-20' style='color: #224765;'>$writer</span></h4>";
+                        echo"<p>$short</p>";
+                        echo"<a class='link' href='full_blog.php?blog_link_ref=$id'>Read More</a>";
+                    echo"</div>";
+                    //<!-- End Latest Products -->
+                }
+                            ?>
+                        </div>
+                        <div class="col-md-3">
+                            <h2>Tweets</h2>
+                            <div class="first-article">
+                                <p>RT @TomDannatt: @streetchilduk + @streetchildnp so delighted to be part of this - with our 3-year project for girls of the Musahar caste, w…</p>
+                            <a href="https://twitter.com/streetchildnp">
+                            <i class="fa fa-twitter fa-2x" aria-hidden="true"><span class="twitter" style="font-family: 'Libre Franklin';font-weight: 400; font-size:25px;padding-left: 10px;color:#faa93c;">@streetchildnp</span></i></a><br>
+                            <bold>15 weeks ago</bold>
+                            </div>
+                            <div class="first-article">
+                                <p>RT @TomDannatt: @streetchilduk + @streetchildnp so delighted to be part of this - with our 3-year project for girls of the Musahar caste, w…</p>
+                            <a href="https://twitter.com/streetchildnp">
+                            <i class="fa fa-twitter fa-2x" aria-hidden="true"><span class="twitter" style="font-family: 'Libre Franklin';font-weight: 400; font-size:25px;padding-left: 10px;color:#faa93c;">@streetchildnp</span></i></a><br>
+                            <bold>15 weeks ago</bold>
+                            </div>
                         </div>
                     </div>
                     <!--// end row -->
@@ -38,13 +94,13 @@
             <!-- End Links -->
 
             <!-- Copyright -->
-            <div class="content container">
+            <div class="content container" style="padding-bottom: 0px;">
                 <div class="row">
                     <div class="col-xs-6">
-                        <img class="footer-logo" src="img/logo-dark.png" alt="Aironepage Logo">
+                        <img class="footer-logo" src="img/logox.png" alt="Logo">
                     </div>
                     <div class="col-xs-6 text-right">
-                        <p class="margin-b-0"><a class="fweight-700" href="http://keenthemes.com/preview/aironepage/">Aironepage</a> Theme Powered by: <a class="fweight-700" href="http://www.keenthemes.com/">KeenThemes.com</a></p>
+                        <p class="margin-b-0"><a class="fweight-700" href="http://shaikshikchetana.org.np">Shaikshik Chetana.</a><a class="fweight-700" href="http://shaikshikchetana.org.np">All right reserved.</a></p>
                     </div>
                 </div>
                 <!--// end row -->

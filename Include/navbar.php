@@ -3,7 +3,7 @@
 
         <!--========== HEADER ==========-->
         <?php
-                            echo "<header class='header navbar-fixed-top' style='background-color: #000;'>";
+                            echo "<header class='header navbar-fixed-top' style='background-color: #905e1b;'>";
                             echo "<nav class='navbar' role='navigation'>";
                             echo "<div class='container'>";
                             echo "<div class='menu-container js_nav-item'>";
@@ -13,8 +13,8 @@
                             echo "</button>";
                             echo "<div class='logo'>";
                             echo "<a class='logo-wrap' href='index.php'>"; 
-                            echo"<img class='logo-img logo-img-main' src='img/logo.png' alt='Logo'>";
-                            echo"<img class='logo-img logo-img-active' src='img/logo-dark.png' alt='Logo'>";
+                            echo"<img class='logo-img logo-img-main' src='img/logox.png' alt='Logo'>";
+                            echo"<img class='logo-img logo-img-active' src='img/logox.png' alt='Logo'>";
                                         echo "</a>";
                                         echo "</div>";
                                         echo "</div>";

@@ -11,15 +11,15 @@
     <!-- Wrapper for slides -->
             <div class="carousel-inner">
               <div class="item active">
-                <img src="img/1920x1080/01.jpg" alt="Los Angeles" style="width:100%;">
+                <img src="img/1920x1080/01.jpg" alt="Los Angeles" style="width:auto;">
               </div>
 
               <div class="item">
-                <img src="img/1920x1080/02.jpg" alt="Chicago" style="width:100%;">
+                <img src="img/1920x1080/02.jpg" alt="Chicago" style="width:auto;">
               </div>
             
               <div class="item">
-                <img src="img/1920x1080/01.jpg" alt="New york" style="width:100%;">
+                <img src="img/1920x1080/01.jpg" alt="New york" style="width:auto;">
               </div>
               <div class="carousel-caption" style="top: 70%;left: 13%;right: auto;bottom: auto;">
                     <h2>SSC</h2>
