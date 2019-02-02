@@ -30,8 +30,8 @@ include('Include/navbar.php');
                 <img src="img/1920x1080/01.jpg" alt="New york" style="width:auto;">
               </div>
               <div class="carousel-caption" style="top: 70%;left: 13%;right: auto;bottom: auto;">
-                    <h2 style="color: #905e1b">What we do.</h2>
-                    <p style="color: #ea8804">Describes what we do,<br>
+                    <h2 style="color: #905e1b;font-size: 70px;">What we do.</h2>
+                    <p style="color: #ea8804;font-size: 20px;">Describes what we do,<br>
                         and our works.</p>
                 </div>
             </div>

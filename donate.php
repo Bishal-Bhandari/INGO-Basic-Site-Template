@@ -29,8 +29,8 @@ include('Include/navbar.php');
                 <img src="img/1920x1080/01.jpg" alt="New york" style="width:auto;">
               </div>
               <div class="carousel-caption" style="top: 70%;left: 13%;right: auto;bottom: auto;">
-                    <h2 style="color: #905e1b">Donate</h2>
-                    <p style="color: #ea8804">Donate us<br>
+                    <h2 style="color: #905e1b;font-size: 70px;">Donate</h2>
+                    <p style="color: #ea8804;font-size: 20px;">Donate us<br>
                         to make education for all.</p>
                 </div>
             </div>

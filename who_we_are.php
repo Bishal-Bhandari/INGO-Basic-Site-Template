@@ -29,8 +29,8 @@ include('Include/navbar.php');
                 <img src="img/1920x1080/01.jpg" alt="New york" style="width:auto;">
               </div>
               <div class="carousel-caption" style="top: 70%;left: 13%;right: auto;bottom: auto;">
-                    <h2 style="color: #905e1b">Who we are?</h2>
-                    <p style="color: #ea8804">Describes who we are,<br>
+                    <h2 style="color: #905e1b;font-size: 70px;">Who we are?</h2>
+                    <p style="color: #ea8804;font-size: 20px;">Describes who we are,<br>
                         and introduction to our team. </p>
                 </div>
             </div>
