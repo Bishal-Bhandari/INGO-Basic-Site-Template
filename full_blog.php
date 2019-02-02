@@ -1,5 +1,5 @@
 <?php
-$phptitle="Full Article";
+$phptitle="Full Blog";
 ?>
 <?php 
 include('Include/header.php');
@@ -76,9 +76,9 @@ include('Include/navbar.php');
                 echo"</div>";
                 echo"<div class='col-md-8' style='background-color:#fff;''>";
                         echo"<blockquote class='blockquote'>";
-                                   echo" <p><span class='fweight-700 color-link'>$title</span><br> $writer</p>";
+                                   echo" <p><span class='fweight-700 color-link' style='color: #f3931f !important;font-size: 25px;'>$title</span><br> $writer</p>";
                                     echo"<div class='margin-b-20'>";
-                echo"<p>$long</p>";
+                echo"<p style='color:#000;'>$long</p>";
                                     echo"</div>";
                         echo"</blockquote> ";
                 echo"</div>";

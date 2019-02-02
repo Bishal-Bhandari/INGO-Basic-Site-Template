@@ -28,7 +28,7 @@ include('Include/navbar.php');
               <div class="item">
                 <img src="img/1920x1080/01.jpg" alt="New york" style="width:auto;">
               </div>
-              <div class="carousel-caption" style="top: 70%;left: 13%;right: auto;bottom: auto;">
+              <div class="carousel-caption" style="top: 43%;left: 21%;right: auto;bottom: auto;">
                     <h2 style="color: #905e1b;font-size: 70px;">Shaikshik Chetana Nepal</h2>
                     <p style="color: #ea8804;font-size: 20px;"> Builds safe and inclusive <br>
                         Environment </p>
