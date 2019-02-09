@@ -60,7 +60,7 @@ $position=100;
 echo"<div class='content-md container' style='padding-bottom: 0px;    padding-top: 125px;'>";
             echo"<div class='row'>";
                 echo"<div class='col-sm-9'>";
-                    echo"<h2>Customer Reviews</h2>";
+                    echo"<h2>Our Notice</h2>";
                     include('admin/dbcon.php');
 
 

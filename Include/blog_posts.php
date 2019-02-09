@@ -49,7 +49,7 @@ $position=100;
                             echo"<img class='img-responsive wow fadeIn' src='$img' alt='Artical Image' data-wow-duration='.3' data-wow-delay='.1s'>";
                         echo"</div>";
                         echo"<h4><a href='full_blog.php?blog_link_ref=$id'>$title</a> <br><span class='text-uppercase margin-l-20' style='color: #224765;'>$writer</span></h4>";
-                        echo"<p>$short</p>";
+                        echo"<p style='color:##8c5710 !important;'>$short</p>";
                         echo"<a class='link' href='full_blog.php?blog_link_ref=$id'>Read More</a>";
                     echo"</div>";
                     //<!-- End Latest Products -->
