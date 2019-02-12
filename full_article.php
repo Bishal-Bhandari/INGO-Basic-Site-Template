@@ -13,24 +13,22 @@ include('Include/navbar.php');
           <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
+           
           </ol>
 
     <!-- Wrapper for slides -->
             <div class="carousel-inner">
               <div class="item active">
-                <img src="img/1920x1080/01.jpg" alt="Los Angeles" style="width:auto;">
+                <img src="img/1920x1080_slider/01.jpg" alt="Los Angeles" style="width:auto;">
               </div>
 
               <div class="item">
-                <img src="img/1920x1080/02.jpg" alt="Chicago" style="width:auto;">
+                <img src="img/1920x1080_slider/02.jpg" alt="Chicago" style="width:auto;">
               </div>
             
-              <div class="item">
-                <img src="img/1920x1080/01.jpg" alt="New york" style="width:auto;">
-              </div>
+            
               <div class="carousel-caption" style="top: 70%;left: 13%;right: auto;bottom: auto;">
-                    <h2 style="color: #905e1b;;font-size: 50px;">Article</h2>
+                    <h2 style="color: #fff;;font-size: 50px;">Article</h2>
                     <!-- <p>Lorem ipsum dolor sit amet, consectetur ,<br>
                         sed do eiusmod tempor incididunt ut labore </p> -->
                 </div>
@@ -66,14 +64,14 @@ include('Include/navbar.php');
                         $img=$row['article_img'];
                         $title=$row['article_title'];
                         $body=$row['article_body'];
-
+$img=str_replace("../"," ","$img");
 echo "<div class='container-fluid' style='margin-top:50px;background-color:#fff;'>";
 echo "<div class='col-md-8'>";
 echo "<p><span class='fweight-700 color-link'><h1 style='color:#5f6475;'>$title</h1></span></p>";
 echo "<div style='text-align:justify;font-size:18px;color:#eb8804;'>$body</div> ";
 echo"</div> ";
 echo "<div class='col-md-4'>";
-echo "<img src='img/500x500/$img' alt='Image' width='600' height='400' style='width: 100%;height: auto;margin-top: 30px;'> ";
+echo "<img src='$img' alt='Image' width='600' height='400' style='width: 100%;height: auto;margin-top: 30px;'> ";
 echo "</div>";
 echo "</div>";
 ?>

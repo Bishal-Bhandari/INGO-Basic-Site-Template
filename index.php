@@ -12,25 +12,20 @@ include('Include/navbar.php');
           <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
           </ol>
 
     <!-- Wrapper for slides -->
             <div class="carousel-inner">
               <div class="item active">
-                <img src="img/1920x1080/01.jpg" alt="Los Angeles" style="width:100%;height: auto;">
+                <img src="img/1920x1080_slider/07.jpg" alt="Los Angeles" style="width:100%;height: auto;">
               </div>
 
               <div class="item">
-                <img src="img/1920x1080/02.jpg" alt="Chicago" style="width:100%;height: auto;">
-              </div>
-            
-              <div class="item">
-                <img src="img/1920x1080/01.jpg" alt="New york" style="width:100%;height: auto;">
+                <img src="img/1920x1080_slider/03.jpg" alt="Chicago" style="width:100%;height: auto;">
               </div>
               <div class="carousel-caption" style="top: 70%;left: 2%;right: auto;bottom: auto;">
-                    <h2 style="color: #905e1b;font-size: 50px;">Shaikshik Chetana Nepal</h2>
-                    <p style="color: #ea8804;font-size: 20px;"> Builds safe and inclusive Environment<br>
+                    <h2 style="color: #fff;font-size: 50px;">Shaikshik Chetana Nepal</h2>
+                    <p style="color: #fff;font-size: 20px;"> Builds safe and inclusive Environment<br>
                       <a  class="btn btn-info" role="button" href="what_we_do.php" style="font-size:25px;background-color: #dc8510;border-color: #f8fafb;border-width: 3px;margin-left: 15px;">Read More</a></p>
                 </div>
             </div>
@@ -57,14 +52,14 @@ include('Include/navbar.php');
 
 
  <!-- Intro -->
-        <div class="content-md container" style="padding-bottom: 0px;margin-bottom: -30px;">
+        <div class="content-md container" style="padding-left:125px;margin-bottom: -80px;width: 100%;background-color: #faa93c;">
             <div class="row">
                 <div class="col-sm-9">
-                    <h2 style="color:#905e1b;">What we do?</h2>
+                    <h2 style="color:#fff;">What we do?</h2>
 
                         <!-- Swiper Wrapper -->
                         <div class="swiper-wrapper">
-                                <blockquote class="blockquote" style="color: #ea8804">
+                                <blockquote class="blockquote" style="color: #fff">
                                     <div class="margin-b-20" style="text-align:justify">
                                     To achieve our aims, Shaikshik Chetana –</div>
                                     <div class="margin-b-20" style="text-align:justify">
@@ -78,7 +73,7 @@ include('Include/navbar.php');
                                     <li>Advocates for street children and other vulnerable children</li>
                                     </ul> 
                                     </div>
-                                    <p><a class="link" href="full_article.php" style="color: #905e1b;margin-left: 10px;">For more click here</a></p>
+                                    <p><a class="link" href="what_we_do.php" style="color: #fff;margin-left: 10px;">For more click here</a></p>
                                 </blockquote>
                             </div>
                         <!-- End Swiper Wrapper -->

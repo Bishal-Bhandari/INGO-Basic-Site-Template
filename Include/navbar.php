@@ -1,9 +1,9 @@
-<!-- BODY -->
+
     <body id="body" data-spy="scroll" data-target=".header">
 
         <!--========== HEADER ==========-->
        <!--========== HEADER ==========-->
-        <header class="header navbar-fixed-top" style="background-color: #905e1b;">
+        <header class="header navbar-fixed-top" > <!-- style="background-color: #905e1b;" -->
             <!-- Navbar -->
             <nav class="navbar" role="navigation">
                 <div class="container">
@@ -17,8 +17,8 @@
                         <!-- Logo -->
                         <div class="logo">
                             <a class="logo-wrap" href="#body">
-                                <img class="logo-img logo-img-main" src="img/logox.png" alt="Asentus Logo">
-                                <img class="logo-img logo-img-active" src="img/logox.png" alt="Asentus Logo">
+                                <img class="logo-img logo-img-main" src="img/logoy.png" alt="Logo">
+                                <img class="logo-img logo-img-active" src="img/logox.png" alt="Logo">
                             </a>
                         </div>
                         <!-- End Logo -->
@@ -33,12 +33,12 @@
                                 <li class="js_nav-item nav-item">
                                         <div class="dropdown">
                                             <button class="dropbtn">
-                                                <a class="nav-item-child nav-item-hover" href="what_we_do.php">What we do?</a>
+                                                <a class="nav-item-child nav-item-hover" href="what_we_do.php">+What we do?</a>
                                             </button>
                                             <div class="dropdown-content">
-                                                <a href="#">Link 1</a>
-                                                <a href="#">Link 2</a>
-                                                <a href="#">Link 3</a>
+                                                <a href="full_article.php?article_link_ref=1">Enabling Access to Early Education for Migrant Children</a>
+                                                <a href="full_article.php?article_link_ref=2">Faith-Based WASH and Menstrual Hygiene </a>
+                                                <a href="full_article.php?article_link_ref=3">Awareness and Inclusion for Children </a>
                                               </div>
                                         </div>
 
@@ -61,4 +61,4 @@
         <!--========== END HEADER ==========-->
        <!--  -->
      
-        <!--========== END HEADER ==========-->
+        <!--========== END HEADER ==========

@@ -12,25 +12,21 @@ include('Include/navbar.php');
           <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
           </ol>
 
     <!-- Wrapper for slides -->
             <div class="carousel-inner">
               <div class="item active">
-                <img src="img/1920x1080/01.jpg" alt="Los Angeles" style="width:auto;">
+                <img src="img/1920x1080_slider/02.jpg" alt="Los Angeles" style="width:auto;">
               </div>
 
               <div class="item">
-                <img src="img/1920x1080/02.jpg" alt="Chicago" style="width:auto;">
+                <img src="img/1920x1080_slider/06.jpg" alt="Chicago" style="width:auto;">
               </div>
             
-              <div class="item">
-                <img src="img/1920x1080/01.jpg" alt="New york" style="width:auto;">
-              </div>
               <div class="carousel-caption" style="top: 70%;left: 13%;right: auto;bottom: auto;">
-                    <h2 style="color: #905e1b;font-size: 50px;">Who we are?</h2>
-                    <p style="color: #ea8804;font-size: 20px;">Describes who we are,<br>
+                    <h2 style="color: #fff;font-size: 50px;">Who we are?</h2>
+                    <p style="color: #fff;font-size: 20px;">Describes who we are,<br>
                         and introduction to our team. </p>
                 </div>
             </div>
@@ -65,7 +61,7 @@ include('Include/navbar.php');
 
                         <!-- Swiper Wrapper -->
                         <div class="swiper-wrapper">
-                                <blockquote class="blockquote" style="color: #ea8804">
+                                <blockquote class="blockquote" style="color: #905e1b">
                                     <div class="margin-b-20" style="text-align:justify">
                                     Shaikshik Chetana, established in 2016, is a NGO that works to improve access to education, health, livelihood and nutrition for the most marginalised and deprived children and youth in Nepal. 
                                     </div>
@@ -89,7 +85,7 @@ include('Include/navbar.php');
         <!-- mission -->
         <div class="container-fluid" style="margin-top:70px;background-color:#faa93c;">
         		<div class="col-md-4">
-                        <img src="img/500x500/01.jpg" alt="Image" width="600" height="400" style="width: 100%;height: auto;margin-top: 70px;">
+                        <img src="img/500x500_article/3.jpg" alt="Image" width="600" height="400" style="width: 100%;height: auto;margin-top: 70px;">
                 </div>
                 <div class="col-md-8" style="background-color:#faa93c;">
                         <!-- <blockquote class="blockquote"> -->
@@ -108,7 +104,7 @@ include('Include/navbar.php');
 
                      <div class="col-md-12" style="background-color: white;height: 80px;"></div>
 
-<!--team-->
+<!--team
 <div class="container-fluid project-bg">
                 <div class="row">
 <h4 style="margin-bottom: 35px;text-align: center">Our Team</h4>
@@ -152,7 +148,7 @@ include('Include/navbar.php');
 
                 </div>
             </div>
-<!--team-->
+team-->
           
        <div class="col-md-12" style="background-color: white;height: 50px;"></div>
         <!--========== END PAGE LAYOUT ==========-->

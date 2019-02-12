@@ -74,11 +74,13 @@ echo "$phptitle";
   background: #bb0000;
   color: white;
 }
-ul.article_ul li{color: #ea8804;}
+ul.article_ul li{color: #fff;}
+ul.what_ul li{color: #885510;}
 ul.brick_li li{color: #ea8804;font-size: 25px;}
 /*hover*/
 .dropbtn {
-  background-color: #905e1b;
+ /* background-color: #905e1b;*/
+ background-color: Transparent;
   color: #515769;
   padding: 0px;
   font-size: 16px;
@@ -94,7 +96,7 @@ ul.brick_li li{color: #ea8804;font-size: 25px;}
   display: none;
   position: absolute;
   background-color: #fff;
-  min-width: 160px;
+  min-width: 420px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -110,7 +112,7 @@ ul.brick_li li{color: #ea8804;font-size: 25px;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #905e1b;}
+.dropdown:hover .dropbtn {background-color: Transparent;}
     </style>
     </head>
     <!-- END HEAD -->

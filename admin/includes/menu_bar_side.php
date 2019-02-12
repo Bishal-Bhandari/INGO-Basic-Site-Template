@@ -30,12 +30,12 @@
          <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fas fa-fw fa-folder"></i>
-            <span>Menus</span>
+            <span>Articles</span>
           </a>
           <div class="dropdown-menu" aria-labelledby="pagesDropdown">
-            <h6 class="dropdown-header">Menu Screens:</h6>
-            <a class="dropdown-item" href="addMenu.php">Add Menu</a>
-            <a class="dropdown-item" href="viewMenu.php">View and Edit Menu</a>
+            <h6 class="dropdown-header">Article Screens:</h6>
+            <a class="dropdown-item" href="addArticle.php">Add Article</a>
+            <a class="dropdown-item" href="viewArticle.php">View and Edit Article</a>
           </div>
         </li>
 

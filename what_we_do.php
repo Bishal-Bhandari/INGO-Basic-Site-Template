@@ -13,25 +13,21 @@ include('Include/navbar.php');
           <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
           </ol>
 
     <!-- Wrapper for slides -->
             <div class="carousel-inner">
               <div class="item active">
-                <img src="img/1920x1080/01.jpg" alt="Los Angeles" style="width:auto;">
+                <img src="img/1920x1080_slider/09.jpg" alt="Los Angeles" style="width:auto;">
               </div>
 
               <div class="item">
-                <img src="img/1920x1080/02.jpg" alt="Chicago" style="width:auto;">
+                <img src="img/1920x1080_slider/08.jpg" alt="Chicago" style="width:auto;">
               </div>
             
-              <div class="item">
-                <img src="img/1920x1080/01.jpg" alt="New york" style="width:auto;">
-              </div>
               <div class="carousel-caption" style="top: 70%;left: 13%;right: auto;bottom: auto;">
-                    <h2 style="color: #905e1b;font-size: 50px;">What we do.</h2>
-                    <p style="color: #ea8804;font-size: 20px;">Describes what we do,<br>
+                    <h2 style="color: #fff;font-size: 50px;">What we do.</h2>
+                    <p style="color: #fff;font-size: 20px;">Describes what we do,<br>
                         and our works.</p>
                 </div>
             </div>
@@ -68,11 +64,11 @@ include('Include/navbar.php');
 
                         <!-- Swiper Wrapper -->
                         <div class="swiper-wrapper">
-                                <blockquote class="blockquote" style="color: #ea8804">
+                                <blockquote class="blockquote" style="color: #905e1b">
                                     <div class="margin-b-20" style="text-align:justify">
                                     To achieve our aims, Shaikshik Chetana –</div>
                                     <div class="margin-b-20" style="text-align:justify">
-                                    <ul class="article_ul">
+                                    <ul class="what_ul">
                                     <li>Builds safe and inclusive educational infrastructure that provides value for money</li>
                                     <li>Recruits, trains and coaches teachers, as well as designing and developing teaching and learning resources, to help improve learning outcomes</li> 
                                     <li>Supports school management committees and school principals</li> 
@@ -95,47 +91,6 @@ include('Include/navbar.php');
         <!-- End Testimonials -->
             <?php
             $position=200;
-            // echo"<div class='container-fluid' style='margin-top:70px;background-color:#faa93c;'>";
-            // include('admin/dbcon.php');
-
-
-            //                     $query = "SELECT *FROM articles ORDER BY article_id DESC";
-            //                     $result = mysqli_query($con, $query);
-            //                     $row_cnt = mysqli_num_rows($result);
-            //                     for ($i=0; $i <$row_cnt ; $i++) { 
-            //                     $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
-                                 
-            //                     $id=$row['article_id'];
-            //                     $img=$row['article_img'];
-            //                     $title=$row['article_title'];
-            //                     $body=$row['article_body'];
-                                
-            //                     $bodyy = substr($body,$position,1);
-            //                     if($bodyy !=" "){
-            //                     while($bodyy !=" "){
-            //                     $j=1;
-            //                     $position=$position+$j;
-
-                               
-            //                     $bodyy = substr($body,$position,1); 
-            //                     }
-
-            //                     }
-
-            //                     $bodyy = substr($body,0,$position); 
-
-            //                     echo "<div class='col-md-4'>";
-            //                     echo "<img src='img/500x500_article/$img' alt='Image' width='600' height='400' style='width: 100%;height: auto;'>";
-            //                     echo "</div>";
-            //                     echo "<div class='col-md-8' style='background-color:#faa93c;'>";
-            //                     echo "<p><span class='fweight-700 color-link'><h1 style='color:#5f6475;'>$title</h1></span></p>";
-            //                     echo "<div class='margin-b-20'>";
-            //                     echo "<p style='text-align:justify;font-size:25px;color:#fff;'>$bodyy<a  class='btn btn-info' role='button' href='full_article.php?article_link_ref=$id' style='font-size:25px;background-color: #dc8510;border-color: #f8fafb;border-width: 3px;'>Read More</a></p> ";
-            //                     echo"</div>";
-            //                     echo"</div>";
-            //                 }
-            // echo"</div>";
-                    //try
 
         echo "<div class='container-fluid' style='margin-top:70px;background-color:#faa93c;'>";
         include('admin/dbcon.php');
@@ -165,9 +120,10 @@ include('Include/navbar.php');
                                 }
 
                                 $cut_short = substr($short,0,$position);
+                                $img=str_replace("../"," ","$img");
                                 echo "<div class='row' style='margin-top:30px;'>"; 
                 echo "<div class='col-md-4'>";
-                        echo "<img src='img/500x500/$img' alt='Image' width='600' height='400' style='width: 100%;height: auto;'>";
+                        echo "<img src='$img' alt='Image' width='600' height='400' style='width: 100%;height: auto;'>";
                echo " </div>";
                 echo "<div class='col-md-8' style='background-color:#faa93c;'>";
                         
